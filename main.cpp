@@ -24,15 +24,18 @@ int main()
                game.guessDoorC();
 
 
+        if(game.isWinner() == true){
+
+        wins++;
+
+       
+
+
         }
 
-    if(game.isWinner() == true){
+        }
 
-    wins++;
-
-    cout<<wins<<endl;
-
-    }
-
+        cout<<wins<<endl;
+        
 return 0;
 }
